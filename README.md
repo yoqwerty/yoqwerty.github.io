@@ -1,1 +1,0 @@
-# yoqwerty.github.io
