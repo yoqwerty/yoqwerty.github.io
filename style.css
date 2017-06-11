@@ -19,6 +19,10 @@ body{
 	left:50%;
 	transform:translate(-50%,-50%);
 }
+.hero h1:hover{
+	color: #e67e22;
+}
+
 header{
 	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://images6.alphacoders.com/443/443953.jpg);
 	height: 100vh;
@@ -29,8 +33,9 @@ header{
 h1{
 	color: white;
 }
-h3{
+h4{
 	color:white;
+	font-size: 120%;
 }
 
 .main-nav{
