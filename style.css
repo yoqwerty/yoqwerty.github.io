@@ -19,12 +19,15 @@ body{
 	left:50%;
 	transform:translate(-50%,-50%);
 }
+.hero h1 {
+	font-size: 90px;
+}
 .hero h1:hover{
 	color: #e67e22;
 }
 
 header{
-	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://images6.alphacoders.com/443/443953.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(http://tables4you.net/wp-content/uploads/2016/10/position_3_coffee_table_with_laptop_platform_-view-here.jpg);
 	height: 100vh;
 	background-position: center;
 	background-size:cover;
@@ -64,7 +67,11 @@ h4{
 	padding: 15px 0;
 
 }
-
+.button{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .btn{
 
 	padding: 10px 20px;
@@ -73,6 +80,7 @@ h4{
 	text-decoration: none;
 	border-radius: 12px;
 	margin-right: 15px;
+	font-size: 20px;
 	
 }
 .btn:hover{
@@ -82,4 +90,35 @@ h4{
 }
 .button{
 	margin: 50px;
+}
+
+.abt{
+	width: 70%;
+	font-size: 18px;
+	margin-left: 15%;
+	padding:12px 12px;
+}
+
+.abt:hover{
+	color:brown;
+	transition: all 0.5s ease-in;
+}
+.features h3{
+	margin-top: 50px;
+	margin-bottom: 45px;
+	font-size: 90px;
+}
+
+h3:after{
+	width:100px;
+	height: 2px;
+	background-color: brown;
+	display: block;
+	content: " ";
+	margin:0 auto;
+	margin-top: 20px;
+}
+
+#content .col{
+	float:left;
 }
